@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abba Gida Gida Restoration Project 2027 | Volunteer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #0D47A1 0%, #1B5E20 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .card {
+      max-width: 600px;
+      width: 100%;
+      background: white;
+      border-radius: 32px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .header {
+      padding: 40px 40px 20px 40px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(145deg, #1B5E20, #0D47A1);
+      border-radius: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    .logo span {
+      font-size: 42px;
+      font-weight: 700;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: #0D47A1;
+      line-height: 1.2;
+      margin-bottom: 10px;
+    }
+
+    .subhead {
+      font-size: 1.1rem;
+      color: #475569;
+      margin-bottom: 8px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #FFB300;
+      color: #1B5E20;
+      font-weight: 700;
+      font-size: 0.8rem;
+      padding: 6px 16px;
+      border-radius: 50px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-top: 10px;
+    }
+
+    .content {
+      padding: 10px 30px 30px 30px;
+    }
+
+    .message-box {
+      background: #f0fdf4;
+      border-left: 4px solid #1B5E20;
+      padding: 16px 20px;
+      border-radius: 12px;
+      margin-bottom: 25px;
+    }
+
+    .message-box p {
+      color: #166534;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .tally-container {
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      border: 1px solid #e2e8f0;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 650px;
+      border: none;
+    }
+
+    .footer {
+      padding: 20px 40px 30px 40px;
+      text-align: center;
+      border-top: 1px solid #e2e8f0;
+      background: #f8fafc;
+    }
+
+    .footer p {
+      color: #64748b;
+      font-size: 0.85rem;
+      margin-bottom: 5px;
+    }
+
+    .footer .note {
+      color: #94a3b8;
+      font-size: 0.75rem;
+    }
+
+    .powered {
+      margin-top: 10px;
+    }
+
+    .powered a {
+      color: #0D47A1;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    /* Mobile adjustments */
+    @media (max-width: 480px) {
+      body {
+        padding: 12px;
+      }
+      .header {
+        padding: 30px 20px 15px 20px;
+      }
+      h1 {
+        font-size: 1.8rem;
+      }
+      .content {
+        padding: 5px 20px 20px 20px;
+      }
+      iframe {
+        height: 700px;
+      }
+      .footer {
+        padding: 20px 20px 25px 20px;
+      }
+    }
+  </style>
+  <!-- Load Inter font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <div class="logo">
+        <span>AG</span>
+      </div>
+      <h1>Abba Gida Gida<br>Restoration Project 2027</h1>
+      <div class="subhead">Join the movement to build a better Kano State</div>
+      <div class="badge">Volunteer Registration</div>
+    </div>
+
+    <div class="content">
+      <div class="message-box">
+        <p>🇳🇬 <strong>Be part of history.</strong> Your voice, your time, and your passion can help restore the promise of Kano. Sign up below to volunteer and receive updates on community events, voter education, and grassroots mobilization.</p>
+      </div>
+
+      <div class="tally-container">
+        <!-- ============================================= -->
+        <!-- REPLACE THE src URL WITH YOUR TALLY FORM URL   -->
+        <!-- ============================================= -->
+        <iframe 
+          src="https://tally.so/embed/5BqydE?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1?transparentBackground=1&dynamicHeight=1" 
+          width="100%" 
+          height="650" 
+          frameborder="0" 
+          marginheight="0" 
+          marginwidth="0" 
+          title="Abba Gida Gida Volunteer Registration">
+        </iframe>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>Abba Gida Gida Restoration Project 2027 — Kano State</p>
+      <p class="note">Your information is secure and will only be used for official project communications.</p>
+      <div class="powered">
+        <span style="color: #94a3b8;">Powered by </span>
+        <a href="#" target="_blank">KanoConnect 360</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
